@@ -1,21 +1,28 @@
-# shop-vue-project
+# Vue2.0+Node.js+MongoDB打造的商城系统
+### 商城采用前后端分离的开发方式（SPA）
+前端Vue2.0全家桶；<br>
+整个商城后台通过Node.js进行实现，通过Express框架实现后端的REST接口，并以json的形式进行输出；<br>
+MongoDB以最常用的数据传输格式json进行数据存储，并且可以和Node.js进行无缝集成.<br>
 
-> A Vue.js project
+> 前端技术栈:Vue全家桶/ES6<br>
+> 后端技术栈:Node.js/Express<br>
+> 数据库:MongoDB<br>
 
-## Build Setup
+页面:
+- 商品列表页面
+- 购物车列表页面
+- 地址页面
+- 订单确认页面
+- 订单成功页面
 
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+实现的功能：
+- 图片懒加载
+- 商品列表分页和排序功能
+- 价格过滤功能
+- 加入购物车功能
+- 登录和退出功能
+- 商品删除和修改功能
+- 购物车全选和商品实时计算功能
+- 地址列表展开
+- 地址设置默认和删除
+- Vuex实现登录和购物车数量状态
