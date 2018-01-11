@@ -26,3 +26,11 @@ MongoDB以最常用的数据传输格式json进行数据存储，并且可以和
 - 地址列表展开
 - 地址设置默认和删除
 - Vuex实现登录和购物车数量状态
+
+项目启动：
+mongodb建一个名为db_demo的数据库，在这个数据库中添加两个集合分别为goods、users，导入的数据在resource文件夹中(dumall-goods，dumall-users)<br>
+进入项目文件<br>
+npm install <br>
+npm run dev<br>
+另开一命令窗口启动后端<br>
+node server/bin/www<br>
