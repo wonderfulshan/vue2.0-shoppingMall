@@ -34,3 +34,9 @@ npm install <br>
 npm run dev<br>
 另开一命令窗口启动后端<br>
 node server/bin/www<br>
+### 效果展示：
+![1](https://raw.githubusercontent.com/wonderfulshan/vue2.0-shoppingMall/master/static/result1.PNG)
+![2](https://raw.githubusercontent.com/wonderfulshan/vue2.0-shoppingMall/master/static/result2.PNG)
+![3](https://raw.githubusercontent.com/wonderfulshan/vue2.0-shoppingMall/master/static/result3.PNG)
+![4](https://raw.githubusercontent.com/wonderfulshan/vue2.0-shoppingMall/master/static/result4.PNG)
+![5](https://raw.githubusercontent.com/wonderfulshan/vue2.0-shoppingMall/master/static/result5.PNG)
